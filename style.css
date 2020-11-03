@@ -1,0 +1,64 @@
+body {
+   background-color: #6c82ac;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+div.contenu{
+    background-color: white;
+    margin: 0% 10% 80% 10%;
+    padding: 30px;
+    min-width: 350px;
+}
+div.recette { /* centre la dive, fond noir et écriture blanche*/
+    display: block;  /*parceque div*/
+    text-align: center;
+    margin-bottom:-20px;
+    margin-top: 60px;      
+}
+p.categorie {
+    background-color: black;
+    display: inline-block; /*pour un paragraphe*/
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    padding: 8px 18px; /*8px en hauteur et 18px en largeur*/
+    font-weight: bold;
+}
+div.separateur {/* tracé d'un trait centré*/
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+div.titre h1 {
+    text-align: center;    
+}
+.texte { /*centre la div avec une largeur de 400px et des marges auto*/
+    margin: 0 auto;
+    max-width: 400px;
+   
+    
+}
+p.contenu {
+    text-align: center; 
+    max-width: 400px;
+   
+}
+.description {
+    text-align: center;
+    width: 100%;
+}
+div.info {
+    position: relative;
+    background-color: gray;
+}
+img.info {
+    display: block; /*dispose l'image en block*/
+    object-fit: cover;/*permet de faire un zoom interne*/
+    min-height: 200px;/* donne une taille mini*/
+    max-height: 400px;/*donne une taille maxi*/
+    background-color: gray;
+}
